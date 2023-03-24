@@ -1,0 +1,138 @@
+.header{
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background: #000;
+    color: #fff;
+}
+
+.input-box{
+    width: 100%;
+    margin: 3rem 0 0 0;
+    display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.check{
+   display: flex;
+   
+   }
+
+   
+.check h3{
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+    word-break: keep-all;
+    content: "\a";
+    white-space: pre;
+}
+
+
+
+
+
+input{
+    
+    text-align: center;
+    height: 30px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    width:60%;
+    border-bottom: 2px solid #000;
+    outline: none;
+}
+
+.btn{
+  border-radius: 50%;  
+  border-color: transparent;
+  color: #000;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover{
+    color: gray;
+    transition: all 0.2s ease-in-out;;
+}
+
+.todo-items{
+    margin-top: 1.5rem;
+    margin-left:20% ;
+    margin-right:20%;
+    width: 60%;
+    }
+
+.each-item{
+    background: #fff;
+    padding: 0.6rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.7rem;
+    word-break: break-word;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    }
+
+    .check input{
+        font-size: 1rem;
+    }
+    
+
+    
+
+        
+
+    .each-item:hover{
+        background: #343030;  
+    }
+
+.far{
+        margin-left: -2.5rem;
+        cursor: pointer;
+        pointer-events: auto;
+        z-index: 10;
+        background-image: none;
+        font-size: 2rem;
+      }
+
+      .todo-btn {
+        width: 5rem;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      
+
+      .far:hover{
+        color: gray;
+      }
+
+      .fa:hover{
+        color: gray;
+      }
+
+      @media screen and (max-width:820px){
+           
+
+            .far{
+                font-size: 1.3rem;
+            }
+      }
+
+
+
+
+
+
+    
+
+
